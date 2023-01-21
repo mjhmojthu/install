@@ -1,4 +1,5 @@
 - Đổi pass root
+	
 	passwd
 	
 	sudo apt update && sudo apt upgrade -y
@@ -44,4 +45,4 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 
 - Thiết lập swap tự động được kích hoạt mỗi khi reboot
 	
-echo /swapfile none swap defaults 0 0 >> /etc/fstab
+	echo /swapfile none swap defaults 0 0 >> /etc/fstab
