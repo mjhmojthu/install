@@ -25,3 +25,20 @@ Or, if using a different distro, use the equivalent package manager instructions
 	liệt kê tất cả: docker images 
 	docker rmi -f <your-image-id> <your-image-id> ...
 Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
+
+- Cách tạo ram ảo
+- Lệnh bên dưới sẽ tạo swap có dung lượng 1Gb. Bạn có thể thay count=1024k
+
+	sudo dd if=/dev/zero of=/swapfile bs=1024 count=1024k
+
+- Tạo phân vùng swap
+
+	mkswap /swapfile
+
+- Kích hoạt swap
+
+	swapon /swapfile
+
+- Thiết lập swap tự động được kích hoạt mỗi khi reboot
+	
+echo /swapfile none swap defaults 0 0 >> /etc/fstab
