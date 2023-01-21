@@ -11,7 +11,7 @@
 	
 	sudo docker run hello-world
 
-	Install Docker Compose plugin
+- Install Docker Compose plugin
 - Update the apt package index, and install the latest version of Docker Compose:
 Or, if using a different distro, use the equivalent package manager instructions.
  
