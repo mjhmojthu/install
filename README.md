@@ -31,9 +31,9 @@ Or, if using a different distro, use the equivalent package manager instructions
 Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 
 - Cách tạo ram ảo
-- Lệnh bên dưới sẽ tạo swap có dung lượng 1Gb. Bạn có thể thay count=1024k
+- Lệnh bên dưới sẽ tạo swap có dung lượng 4Gb. Bạn có thể thay count=1024k
 
-	sudo dd if=/dev/zero of=/swapfile bs=1024 count=1024k
+	sudo dd if=/dev/zero of=/swapfile bs=1024 count=4096k
 
 - Tạo phân vùng swap
 
