@@ -1,4 +1,6 @@
+- Đổi pass root
 	passwd
+	
 	sudo apt update && sudo apt upgrade -y
 
 
