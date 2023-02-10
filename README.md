@@ -48,7 +48,10 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 	echo /swapfile none swap defaults 0 0 >> /etc/fstab
 	
 - Hetzner
-- sudo apt-get install htop -y
-- sudo apt install git -y
-- sudo apt install screen -y
-- apt install apparmor -y
+	sudo apt-get install htop -y
+	sudo apt install git -y
+	sudo apt install screen -y
+	apt install apparmor -y
+
+- Check port user
+	sudo lsof -i -P -n | grep LISTEN
