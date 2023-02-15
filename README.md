@@ -50,10 +50,13 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 - Hetzner
 
 	sudo apt-get install htop -y
+	
 	sudo apt install git -y
+	
 	sudo apt install screen -y
+	
 	apt install apparmor -y
 
-- Check port user
+- Check port using
 
 	sudo lsof -i -P -n | grep LISTEN
