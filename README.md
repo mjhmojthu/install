@@ -60,3 +60,7 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 - Check port using
 
 	sudo lsof -i -P -n | grep LISTEN
+	
+- Change language Netcup
+
+	sudo update-locale LANG=en_US.UTF-8
