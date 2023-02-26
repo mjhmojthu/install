@@ -64,3 +64,7 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 - Change language Netcup
 
 	sudo update-locale LANG=en_US.UTF-8
+	
+- Copy toàn bộ nội dung qua thư mục hiện tại
+
+	cp -RT ~/.shardeum/ .
