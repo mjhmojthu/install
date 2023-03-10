@@ -74,3 +74,5 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 	wget https://github.com/damomine/aleominer/releases/download/v2.3.1/damominer_linux_v2.3.1.tar
 
 	tar -xvf damominer_*.tar ; chmod +x damominer
+	
+- Ngắt screen: screen -S (id_màn_hình) -X quit
