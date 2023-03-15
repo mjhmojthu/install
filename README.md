@@ -76,3 +76,9 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 	tar -xvf damominer_*.tar ; chmod +x damominer
 	
 - Ngắt screen: screen -S (id_màn_hình) -X quit
+
+	XOÁ docker image
+	liệt kê tất cả: docker images 
+	docker rmi -f <your-image-id> <your-image-id> ...
+Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
+
