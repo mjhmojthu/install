@@ -84,3 +84,4 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 	
 Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 
+-	sudo lsof -i -P -n | grep LISTEN
