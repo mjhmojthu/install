@@ -85,3 +85,13 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 
 -	sudo lsof -i -P -n | grep LISTEN
+
+-	# Subsquid
+
+- Install NodeJs
+    
+    curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+
+    sudo apt-get install -y nodejs
+
+
