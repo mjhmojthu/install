@@ -92,10 +92,11 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 
     sudo apt-get install -y nodejs
 
-- Fortmat ổ cứng
+`#` Fortmat ổ cứng
+
 	sudo mkfs.ext4 /dev/sda
 
-  Tự động mount khi restart pc. Mở tệp /etc/fstab bằng trình soạn thảo văn bản, ví dụ sudo nano:
+`#` Tự động mount khi restart pc. Mở tệp /etc/fstab bằng trình soạn thảo văn bản, ví dụ sudo nano:
 
 	sudo nano /etc/fstab
 
