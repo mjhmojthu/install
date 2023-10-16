@@ -82,16 +82,25 @@ Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 	
 	docker rmi -f <your-image-id> <your-image-id> ...
 	
-Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
+- Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 
 -	sudo lsof -i -P -n | grep LISTEN
-
--	# Subsquid
 
 - Install NodeJs
     
     curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 
     sudo apt-get install -y nodejs
+
+- Fortmat ổ cứng
+	sudo mkfs.ext4 /dev/sda
+
+  Tự động mount khi restart pc. Mở tệp /etc/fstab bằng trình soạn thảo văn bản, ví dụ sudo nano:
+
+	sudo nano /etc/fstab
+
+	Thêm dòng sau vào cuối tệp /etc/fstab để chỉ định việc mount phân vùng /dev/nvme0n1p1 vào thư mục /mnt/nvme0n1p1:
+
+	/dev/sda /mnt/sda  ext4  defaults  0  2
 
 
