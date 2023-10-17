@@ -1,4 +1,5 @@
-`#` Đổi pass root: passwd	
+`#` Đổi pass root: passwd
+
 	sudo apt update && sudo apt upgrade -y
  
 `#` Install Docker Engine on Ubuntu
