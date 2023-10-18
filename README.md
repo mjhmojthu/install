@@ -2,7 +2,7 @@
 
 	sudo apt update && sudo apt upgrade -y
  
-`#` Install Docker Engine on Ubuntu
+# Install Docker Engine on Ubuntu
 	
 `#` This example downloads the script from get.docker.com and runs it to install the latest stable release of Docker on Linux:
 
