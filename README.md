@@ -91,7 +91,9 @@
     sudo apt-get install -y nodejs
 
 # Fortmat ổ cứng và mount
-
+`#` Xem danh sách disk
+	lsblk
+`#` Fortmat 
 	sudo mkfs.ext4 /dev/sda
 
 `#` Tự động mount khi restart pc. Mở tệp /etc/fstab bằng trình soạn thảo văn bản, ví dụ sudo nano:
