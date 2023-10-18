@@ -90,7 +90,7 @@
 
     sudo apt-get install -y nodejs
 
-`#` Fortmat ổ cứng
+# Fortmat ổ cứng và mount
 
 	sudo mkfs.ext4 /dev/sda
 
@@ -98,7 +98,7 @@
 
 	sudo nano /etc/fstab
 
-	Thêm dòng sau vào cuối tệp /etc/fstab để chỉ định việc mount phân vùng /dev/nvme0n1p1 vào thư mục /mnt/nvme0n1p1:
+`#` Thêm dòng sau vào cuối tệp /etc/fstab để chỉ định việc mount phân vùng /dev/nvme0n1p1 vào thư mục /mnt/nvme0n1p1:
 
 	/dev/sda /mnt/sda  ext4  defaults  0  2
 
