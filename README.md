@@ -13,7 +13,6 @@
 	sudo docker run hello-world
 
 `#` Install Docker Compose plugin
-`#` Update the apt package index, and install the latest version of Docker Compose
  
  	sudo apt-get update && sudo apt-get install docker-compose-plugin
  
@@ -21,13 +20,15 @@
 
  	docker compose version
 
-`#`	XOÁ docker image, liệt kê tất cả: docker images 
-
-	docker rmi -f <your-image-id> <your-image-id> ...
+`#`	XOÁ docker image, liệt kê tất cả: 
+	
+ 	docker images 
  
 `#` Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 
-# Cách tạo ram ảo
+ 	docker rmi -f <your-image-id> <your-image-id> ...
+
+# Tạo ram ảo
 `#` Lệnh bên dưới sẽ tạo swap có dung lượng 4Gb. Bạn có thể thay count=1024k
 
 	sudo dd if=/dev/zero of=/swapfile bs=1024 count=4096k
@@ -44,8 +45,7 @@
 	
 	echo /swapfile none swap defaults 0 0 >> /etc/fstab
 
- --------------------------------------------------------------
-- Hetzner
+# Hetzner
 
 	sudo apt-get install htop -y
 	
@@ -54,10 +54,6 @@
 	sudo apt install screen -y
 	
 	apt install apparmor -y
-
-- Check port using
-
-	sudo lsof -i -P -n | grep LISTEN
 	
 - Change language Netcup
 
@@ -73,19 +69,15 @@
 
 	tar -xvf damominer_*.tar ; chmod +x damominer
 	
-- Ngắt screen: screen -S (id_màn_hình) -X quit
+# Ngắt screen: 
 
-	XOÁ docker image
-	liệt kê tất cả: docker images 
-
-`#` Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
-	docker rmi -f <your-image-id> <your-image-id> ...
+	screen -S (id_màn_hình) -X quit
 	
-`#` Check port running
+# Check port running
 
 	sudo lsof -i -P -n | grep LISTEN
 
-`#` Install NodeJs
+# Install NodeJs
     
     curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 
