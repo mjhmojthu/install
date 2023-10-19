@@ -77,14 +77,15 @@
 
 	XOÁ docker image
 	liệt kê tất cả: docker images 
-	
+
+`#` Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
 	docker rmi -f <your-image-id> <your-image-id> ...
 	
-- Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
+`#` Check port running
 
--	sudo lsof -i -P -n | grep LISTEN
+	sudo lsof -i -P -n | grep LISTEN
 
-- Install NodeJs
+`#` Install NodeJs
     
     curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 
