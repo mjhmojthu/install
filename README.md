@@ -82,7 +82,7 @@
     curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 
     sudo apt-get install -y nodejs
-# Nếu bạn chỉ muốn sao chép nội dung của thư mục gốc (/root/.local/share/namada/) mà không bao gồm thư mục con, bạn có thể sử dụng lệnh cp với tùy chọn -r như sau:
+# Sao chép nội dung của thư mục gốc mà không bao gồm thư mục con, bạn có thể sử dụng lệnh cp với tùy chọn -r như sau:
 
 	cp -r /root/.local/share/namada/* /mnt/sda/namada/
 
