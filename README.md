@@ -8,10 +8,6 @@
 
  	curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
 
-`#` Verify that Docker Engine is installed correctly by running the hello-world image.
-	
-	sudo docker run hello-world
-
 `#` Install Docker Compose plugin
  
  	sudo apt-get update && sudo apt-get install docker-compose-plugin
