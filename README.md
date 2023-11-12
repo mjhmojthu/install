@@ -91,5 +91,15 @@
 `#` Thêm dòng sau vào cuối tệp /etc/fstab để chỉ định việc mount phân vùng /dev/nvme0n1p1 vào thư mục /mnt/nvme0n1p1:
 
 	/dev/sda /mnt/sda  ext4  defaults  0  2
+# Install Go
+
+	VERSION=1.20.5
+	wget -O go.tar.gz https://go.dev/dl/go$VERSION.linux-amd64.tar.gz
+	sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go.tar.gz && rm go.tar.gz
+	echo 'export GOROOT=/usr/local/go' >> $HOME/.bash_profile
+	echo 'export GOPATH=$HOME/go' >> $HOME/.bash_profile
+	echo 'export GO111MODULE=on' >> $HOME/.bash_profile
+	echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile && . $HOME/.bash_profile
+	go version
 
 
