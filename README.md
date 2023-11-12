@@ -2,28 +2,6 @@
 
 	sudo apt update && sudo apt upgrade -y
  
-# Install Docker Engine on Ubuntu
-	
-`#` This example downloads the script from get.docker.com and runs it to install the latest stable release of Docker on Linux:
-
- 	curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
-
-`#` Install Docker Compose plugin
- 
- 	sudo apt-get update && sudo apt-get install docker-compose-plugin
- 
-`#` Verify that Docker Compose is installed correctly by checking the version.
-
- 	docker compose version
-
-`#`	XOÁ docker image, liệt kê tất cả: 
-	
- 	docker images 
- 
-`#` Viết ID hình ảnh trong lệnh, theo sau là dấu cách giữa chúng.
-
- 	docker rmi -f <your-image-id> <your-image-id> ...
-
 # Tạo ram ảo
 `#` Lệnh bên dưới sẽ tạo swap có dung lượng 4Gb. Bạn có thể thay count=1024k
 
