@@ -82,6 +82,6 @@
  
 	go version
  
-`#` Để xem dung lượng của từng thư mục trong thư mục hiện tại (root)
+# Để xem dung lượng của từng thư mục trong thư mục hiện tại (root)
 
 	du -h --max-depth=1
