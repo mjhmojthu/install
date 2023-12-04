@@ -1,6 +1,10 @@
 `#` Đổi pass root: passwd
 
 	sudo apt update && sudo apt upgrade -y
+
+`#` docker logs
+
+	docker compose down && docker compose up -d && docker compose logs --tail=100 -f
  
 # Tạo ram ảo
 `#` Lệnh bên dưới sẽ tạo swap có dung lượng 4Gb. Bạn có thể thay count=1024k
