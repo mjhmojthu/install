@@ -66,6 +66,10 @@
 
 	sudo mkfs.ext4 /dev/sda
 
+`#` Mount
+
+  	sudo mount /dev/sda /mnt/sda
+
 `#` Tự động mount khi restart pc. Mở tệp /etc/fstab bằng trình soạn thảo văn bản, ví dụ sudo nano:
 
 	sudo nano /etc/fstab
