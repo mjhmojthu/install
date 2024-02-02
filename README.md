@@ -22,7 +22,11 @@
 `#` Thiết lập swap tự động được kích hoạt mỗi khi reboot
 	
 	echo /swapfile none swap defaults 0 0 >> /etc/fstab
+ 
+# Giải nén
 
+	tar -xvf
+ 
 # Hetzner
 
 	sudo apt-get install htop -y
