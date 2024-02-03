@@ -5,6 +5,10 @@
 `#` docker logs
 
 	docker compose down && docker compose up -d && docker compose logs --tail=100 -f
+
+`#` Cài docker
+ 	
+  	curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
  
 # Tạo ram ảo
 `#` Lệnh bên dưới sẽ tạo swap có dung lượng 4Gb. Bạn có thể thay count=1024k
