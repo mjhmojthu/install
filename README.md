@@ -107,3 +107,11 @@
 # Để xem dung lượng của từng thư mục trong thư mục hiện tại (root)
 
 	du -h --max-depth=1
+
+# Tăng giới hạn số lượng file mở cùng một lúc bằng cách sửa đổi cấu hình kernel. Bạn có thể thực hiện bằng cách sửa đổi tệp và thêm các cấu hình như sau:
+
+	nano /etc/sysctl.conf
+ 
+	fs.file-max = 666665535
+
+	sysctl -p
