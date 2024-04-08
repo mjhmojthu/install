@@ -99,9 +99,14 @@
 	go version
 
 `#` Gỡ Go
-
- 	echo $GOROOT
-	sudo rm -rf /usr/local/go
+	
+	which go – Xác định vị trí nhị phân của Go
+	rm -rf /***/***/go – Xóa thư mục Go trên which go
+	nano ~/.profile – Chỉnh sửa tệp hồ sơ
+	source ~/.profile – Tải lại hồ sơ
+ 
+ 	//echo $GOROOT
+	//sudo rm -rf /usr/local/go
 
  
 # Để xem dung lượng của từng thư mục trong thư mục hiện tại (root)
