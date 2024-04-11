@@ -26,6 +26,16 @@
 `#` Thiết lập swap tự động được kích hoạt mỗi khi reboot
 	
 	echo /swapfile none swap defaults 0 0 >> /etc/fstab
+
+ `#` Tắt ram ảo 
+
+ 	swapoff -a
+
+ `#` Sau đó vào file /etc/fstab xóa hết các dòng "mount swap" tìm thấy ở bên trên
+
+  	nano /etc/fstab
+
+
  
 # Giải nén
 
