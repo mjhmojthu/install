@@ -35,7 +35,7 @@
 
   	nano /etc/fstab
    
- `#` Kiểm tra tốc độ ghi ổ cứng
+# Kiểm tra tốc độ ghi ổ cứng
 
 	sudo hdparm -t /dev/sda*
 
