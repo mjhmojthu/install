@@ -34,7 +34,10 @@
  `#` Sau đó vào file /etc/fstab xóa hết các dòng "mount swap" tìm thấy ở bên trên
 
   	nano /etc/fstab
+   
+ `#` Kiểm tra tốc độ ghi ổ cứng
 
+	sudo hdparm -t /dev/sda*
 
  
 # Giải nén
