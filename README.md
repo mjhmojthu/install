@@ -137,7 +137,7 @@
 	export http_proxy=http://<proxy_ip>:<proxy_port>
 	export https_proxy=http://<proxy_ip>:<proxy_port>
 
-# b. Thiết lập proxy vĩnh viễn
+`#` b. Thiết lập proxy vĩnh viễn
 
 	http_proxy=http://<proxy_ip>:<proxy_port>
 	https_proxy=http://<proxy_ip>:<proxy_port>
