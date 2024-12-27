@@ -9,6 +9,16 @@
 `#` Cài docker
  	
   	curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
+
+`#` Xóa tất cả container có trạng thái Exited:
+
+   	docker rm $(docker ps -a --filter "status=exited" -q)
+
+`#` Xóa tất cả images có trạng thái <NONE>
+
+    	docker images --filter "dangling=true" -q | xargs --no-run-if-empty docker rmi -f
+
+
  
 # Tạo ram ảo
 `#` Lệnh bên dưới sẽ tạo swap có dung lượng 4Gb. Bạn có thể thay count=1024k
