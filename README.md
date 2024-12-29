@@ -14,7 +14,7 @@
 
    	docker rm $(docker ps -a --filter "status=exited" -q)
 
-`#` Xóa tất cả images có trạng thái <NONE>
+`#` Xóa tất cả images có trạng thái <<NONE>>
 
     	docker images --filter "dangling=true" -q | xargs --no-run-if-empty docker rmi -f
 
