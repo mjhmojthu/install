@@ -85,6 +85,13 @@
     curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 
     sudo apt-get install -y nodejs
+
+# Gỡ NodeJs và npm
+
+    sudo apt remove --purge nodejs npm -y && \
+    sudo apt autoremove -y && \
+    sudo apt clean
+
 # Sao chép tất cả nội dung bên trong của thư mục gốc mà không bao gồm thư mục con:
 
 	cp -r /root/.local/share/namada/* /mnt/sda/namada/
