@@ -54,6 +54,14 @@
 
 	tar -xvf
  
+# Dừng ghi syslog, comment dòng dưới
+
+	sudo nano /etc/rsyslog.d/50-default.conf
+
+	# *.*;auth,authpriv.none          -/var/log/syslog
+
+ 	sudo systemctl restart rsyslog
+ 
 # Hetzner
 
 	sudo apt-get install htop -y
