@@ -56,6 +56,8 @@
  
 # Dừng ghi syslog, comment dòng dưới
 
+ 	sudo truncate -s 0 /var/log/syslog
+
 	sudo nano /etc/rsyslog.d/50-default.conf
 
 	# *.*;auth,authpriv.none          -/var/log/syslog
