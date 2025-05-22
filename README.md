@@ -171,3 +171,21 @@
 
  	source ~/.bashrc
 
+# Thêm ssh vào githup https://github.com/settings/ssh/new
+
+	ssh-keygen -t ed25519 -C "email-cua-ban@example.com"
+
+ 	cat ~/path/file-ssh.pub
+
+ 	eval "$(ssh-agent -s)"
+
+	ssh-add ~/path/file-ssh
+
+ 	ssh -T git@github.com
+
+	git clone git@github.com:mjhmojthu/ten-repo.git
+
+
+	
+
+
