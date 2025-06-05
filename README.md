@@ -18,7 +18,9 @@
 
     	docker images --filter "dangling=true" -q | xargs --no-run-if-empty docker rmi -f
 
+`#` xoá images có tên <TÊN>
 
+	docker rmi $(docker images | grep "TÊN" | awk '{print $3}')
  
 # Tạo ram ảo
 `#` Lệnh bên dưới sẽ tạo swap có dung lượng 4Gb. Bạn có thể thay count=1024k
