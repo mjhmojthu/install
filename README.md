@@ -25,7 +25,7 @@
 # Tạo ram ảo
 `#` Lệnh bên dưới sẽ tạo swap có dung lượng 4Gb. Bạn có thể thay count=1024k
 
-	sudo dd if=/dev/zero of=/swapfile bs=1024 count=4096k
+	sudo dd if=/dev/zero of=/swapfile bs=1024 count=15360k
 
 `#` Tạo phân vùng swap
 
